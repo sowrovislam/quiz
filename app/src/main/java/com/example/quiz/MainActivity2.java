@@ -85,7 +85,7 @@ public class MainActivity2 extends AppCompatActivity {
 
                     }else {
 
-                        tvage.setError("Input the valu");
+                        tvage.setError("Input the right valu");
 
 
                 }
