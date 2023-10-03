@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+
+        >
+
+
+
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="9dp"
+
+            android:background="#104E12"
+            android:id="@+id/layout"
+            >
+
+
+            <ImageView
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:src="@drawable/img_1"
+            android:scaleType="centerCrop"
+
+
+            />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="vertical"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:background="#C8BBDD"
+
+                >
+
+      <TextView
+          android:id="@+id/tittle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="কাশ্মীরি স্টাইলে মুরগির মাংস! রইল রেসিপি"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:textColor="@color/black"/>
+
+
+                <TextView
+                    android:id="@+id/dis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="উপকরণ এক কেজি চিকেন, এক চামচ ঘি, আধা কাপ টক দই, আধা কাপ ময়দা, আধা কাপ দুধ, হলুদ গুঁড়ো, লঙ্কা গুঁড়ো, ধনে গুঁড়ো, জিরে গুঁড়ো, গরম মশলা গুঁড়ো, আদা বাটা, রসুন বাটা"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+
+
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
