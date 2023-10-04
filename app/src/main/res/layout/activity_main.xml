@@ -154,6 +154,7 @@
 
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card4"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:backgroundTint="#CDDC39"
@@ -164,12 +165,13 @@
 
 
                 <TextView
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/aclonica"
                     android:gravity="center"
-                    android:text="MY ALL APP"
+                    android:text="chak internet"
                     android:textColor="@color/black"
                     android:textSize="30dp"
                     android:textStyle="bold" />
