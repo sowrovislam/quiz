@@ -11,7 +11,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    CardView card1,card2,card3,card4,card5,card6;
+    CardView card1,card2,card3,card4,card5,card6,card7,card8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         card4=findViewById(R.id.card4);
         card5=findViewById(R.id.card5);
         card6=findViewById(R.id.card6);
-
+        card7=findViewById(R.id.card7);
+//        card6=findViewById(R.id.card6);
 
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,6 +79,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,MainActivity9.class));
+            }
+        });
+
+
+
+        card7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,MainActivity10.class));
             }
         });
 

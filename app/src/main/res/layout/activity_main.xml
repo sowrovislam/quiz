@@ -214,6 +214,7 @@
 
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card7"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_marginStart="20dp"
@@ -229,7 +230,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/aclonica"
                     android:gravity="center"
-                    android:text="MY ALL APP"
+                    android:text="divisible"
                     android:textColor="@color/black"
                     android:textSize="30dp"
                     android:textStyle="bold" />
