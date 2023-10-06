@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity7">
+
+
+
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/vii"
+       android:visibility="invisible"
+       android:layout_width="match_parent"
+       android:layout_height="240dp"
+       android:backgroundTint="#2196F3"
+       android:layout_marginTop="200dp"
+       android:layout_marginStart="20dp"
+       android:layout_marginEnd="20dp"
+      app:cardCornerRadius="30dp">
+
+
+
+      <TextView
+          android:id="@+id/tvtex"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:text=""
+         android:textSize="34dp"
+         android:textStyle="bold"
+         android:textColor="@color/black"
+         android:gravity="center"
+         android:layout_marginTop="78dp"/>
+
+
+
+
+
+
+
+   </androidx.cardview.widget.CardView>
+
+   <Button
+       android:id="@+id/button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      android:text="button"
+      android:background="@drawable/button2"
+      android:layout_marginTop="45dp"
+      android:layout_marginStart="45dp"
+      android:layout_marginEnd="45dp"/>
+
+
+
+
+
+
+</LinearLayout>

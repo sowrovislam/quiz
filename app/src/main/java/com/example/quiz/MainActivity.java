@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         card2=findViewById(R.id.card2);
         card3=findViewById(R.id.card3);
         card4=findViewById(R.id.card4);
-
-
+        card5=findViewById(R.id.card5);
+        card6=findViewById(R.id.card6);
 
 
         card1.setOnClickListener(new View.OnClickListener() {
@@ -65,8 +65,21 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        card5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,MainActivity8.class));
+            }
+        });
 
 
+
+        card6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,MainActivity9.class));
+            }
+        });
 
 
 
